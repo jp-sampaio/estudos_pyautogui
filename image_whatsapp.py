@@ -35,13 +35,9 @@ pyautogui.mouseDown()
 
 # Mover até o ícone do whatsapp, esperar um pouco e depois arrastar até a conversa
 pyautogui.moveTo(x=975, y=741, duration=1)
-
 sleep(1)
-
 pyautogui.move(0, -100)
 pyautogui.mouseUp()
-
 sleep(1)
-
 pyautogui.write('Imagem de Teste')
 pyautogui.press('enter')
